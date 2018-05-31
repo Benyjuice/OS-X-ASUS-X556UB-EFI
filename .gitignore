@@ -3,3 +3,5 @@ themes/
 tools/
 OEM/
 kext/10.*
+ACPI/origin/
+.*
