@@ -1,0 +1,170 @@
+3:103  0:797  Found BIOS RSDP at F0070
+3:103  0:000  Printing ACPI tables from RSDP F0070 ...
+3:103  0:000   F0070: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:103  0:000    (Xsdt: 566900A0, Rsdt: 56690028)
+3:103  0:000    566900A0: 'XSDT', 'Notebook', Rev: 1, Len: 196
+3:103  0:000    56690028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+3:103  0:000    Tables in Xsdt: 20
+3:103  0:000    0. 566B6268: 'FACP', 'Notebook', Rev: 5, Len: 268
+3:103  0:000        (Dsdt: 566901F8, Facs: 5712AF80, XDsdt: 566901F8, XFacs: 0)
+3:103  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758
+3:106  0:002        5712AF80: 'FACS', Ver: 2, Len: 64
+3:106  0:000    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132
+3:106  0:000    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:106  0:000    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156
+3:106  0:000    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:106  0:000    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:106  0:000    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+3:106  0:000    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:106  0:000    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+3:106  0:000    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+3:106  0:000    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52
+3:106  0:000    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84
+3:106  0:000    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801
+3:106  0:000    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658
+3:106  0:000    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66
+3:106  0:000    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+3:106  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56
+3:106  0:000    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995
+3:106  0:000    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803
+3:106  0:000    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:106  0:000    Tables in Rsdt: 20
+3:106  0:000    0. 56690170: 'FACP', 'Notebook', Rev: 2, Len: 132
+3:106  0:000        (Dsdt: 566901F8, Facs: 5712AF40)
+3:106  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758
+3:109  0:002        5712AF40: 'FACS', Ver: 0, Len: 64
+3:109  0:000    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132
+3:109  0:000    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:109  0:000    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156
+3:109  0:000    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:109  0:000    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:109  0:000    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+3:109  0:000    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:109  0:000    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+3:109  0:000    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+3:109  0:000    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52
+3:109  0:000    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84
+3:109  0:000    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801
+3:109  0:000    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658
+3:109  0:000    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66
+3:109  0:000    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+3:109  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56
+3:109  0:000    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995
+3:109  0:000    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803
+3:109  0:000    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:109  0:000  Found UEFI Acpi 2.0 RSDP at 56690000
+3:109  0:000  Saving ACPI tables from RSDP 56690000 to EFI\CLOVER\ACPI\origin ...
+3:109  0:000   56690000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:121  0:012    (Xsdt: 566900A0, Rsdt: 56690028)
+3:121  0:000    566900A0: 'XSDT', 'Notebook', Rev: 1, Len: 196 -> XSDT.aml
+3:133  0:011    56690028: 'RSDT', 'Notebook', Rev: 1, Len: 116 -> RSDT.aml
+3:145  0:011    Tables in Xsdt: 20
+3:145  0:000    0. 566B6268: 'FACP', 'Notebook', Rev: 5, Len: 268 -> FACP.aml
+3:158  0:013        (Dsdt: 566901F8, Facs: 5712AF80, XDsdt: 566901F8, XFacs: 0)
+3:158  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758 -> DSDT.aml
+3:173  0:015        5712AF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:185  0:011    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132 -> APIC.aml
+3:196  0:011    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68 -> FPDT.aml
+3:208  0:011    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156 -> FIDT.aml
+3:220  0:011    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60 -> MCFG.aml
+3:231  0:011    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56 -> HPET.aml
+3:244  0:012    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-0-SataTabl.aml
+3:255  0:011    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193 -> ECDT.aml
+3:267  0:011    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+3:279  0:011    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584 -> SSDT-1-sensrhub.aml
+3:300  0:021    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+3:311  0:011    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+3:322  0:011    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801 -> SSDT-2-DptfTabl.aml
+3:335  0:012    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658 -> SSDT-3-SaSsdt.aml
+3:347  0:012    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66 -> UEFI.aml
+3:359  0:011    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699 -> SSDT-4-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+3:370  0:011        * 554CE718: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1632  53 53 44 54 60 06 00 00 02 CF 50 6D 52 65 66 00 Internal length = 1632 -> SSDT-x4_0-Cpu0Ist.aml
+3:382  0:011        * 554CD618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 CE 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x4_1-ApIst.aml
+3:394  0:011        * 554CDC18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 65 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x4_2-Cpu0Cst.aml
+3:405  0:011        * 55CB0A98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 EA 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_3-ApCst.aml
+3:417  0:011        * 55CB0F18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 2B 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x4_4-Cpu0Hwp.aml
+3:429  0:011        * 55CB0918: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 FD 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x4_5-ApHwp.aml
+3:440  0:011        * 55CB0C18: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 85 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x4_6-HwpLvt.aml
+3:452  0:011  
+3:452  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56 -> BGRT.aml
+3:464  0:011    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995 -> SSDT-5-SgPch.aml
+3:478  0:014    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803 -> SSDT-6-OptTabl.aml
+3:490  0:012    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85 -> MSDM.aml
+3:503  0:013    Tables in Rsdt: 20
+3:503  0:000    0. 56690170: 'FACP', 'Notebook', Rev: 2, Len: 132 -> RSDT-FACP.aml
+3:517  0:013        (Dsdt: 566901F8, Facs: 5712AF40)
+3:517  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758
+3:519  0:002        5712AF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+3:533  0:013    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132
+3:533  0:000    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:533  0:000    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156
+3:533  0:000    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:533  0:000    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:533  0:000    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+3:533  0:000    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:533  0:000    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+3:533  0:000    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+3:533  0:000    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52
+3:533  0:000    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84
+3:533  0:000    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801
+3:533  0:000    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658
+3:533  0:000    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66
+3:533  0:000    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+3:533  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56
+3:533  0:000    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995
+3:533  0:000    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803
+3:533  0:000    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:533  0:000  Found UEFI Acpi 1.0 RSDP at 56690000
+3:533  0:000  Printing ACPI tables from RSDP 56690000 ...
+3:533  0:000   56690000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:533  0:000    (Xsdt: 566900A0, Rsdt: 56690028)
+3:533  0:000    566900A0: 'XSDT', 'Notebook', Rev: 1, Len: 196
+3:533  0:000    56690028: 'RSDT', 'Notebook', Rev: 1, Len: 116
+3:533  0:000    Tables in Xsdt: 20
+3:533  0:000    0. 566B6268: 'FACP', 'Notebook', Rev: 5, Len: 268
+3:533  0:000        (Dsdt: 566901F8, Facs: 5712AF80, XDsdt: 566901F8, XFacs: 0)
+3:533  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758
+3:536  0:002        5712AF80: 'FACS', Ver: 2, Len: 64
+3:536  0:000    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132
+3:536  0:000    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:536  0:000    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156
+3:536  0:000    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:536  0:000    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:536  0:000    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+3:536  0:000    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:536  0:000    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+3:536  0:000    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+3:536  0:000    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52
+3:536  0:000    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84
+3:536  0:000    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801
+3:536  0:000    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658
+3:536  0:000    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66
+3:536  0:000    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+3:536  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56
+3:536  0:000    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995
+3:536  0:000    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803
+3:536  0:000    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:536  0:000    Tables in Rsdt: 20
+3:536  0:000    0. 56690170: 'FACP', 'Notebook', Rev: 2, Len: 132
+3:536  0:000        (Dsdt: 566901F8, Facs: 5712AF40)
+3:536  0:000        566901F8: 'DSDT', 'Notebook', Rev: 2, Len: 155758
+3:539  0:002        5712AF40: 'FACS', Ver: 0, Len: 64
+3:539  0:000    1. 566B6378: 'APIC', 'Notebook', Rev: 3, Len: 132
+3:539  0:000    2. 566B6400: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:539  0:000    3. 566B6448: 'FIDT', 'Notebook', Rev: 1, Len: 156
+3:539  0:000    4. 566B64E8: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:539  0:000    5. 566B6528: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:539  0:000    6. 566B6560: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+3:539  0:000    7. 566B6878: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:539  0:000    8. 566B6940: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+3:539  0:000    9. 566B69D8: 'SSDT', 'sensrhub', Rev: 2, Len: 584
+3:539  0:000    10. 566B6C20: 'DBGP', '', Rev: 1, Len: 52
+3:539  0:000    11. 566B6C58: 'DBG2', '', Rev: 0, Len: 84
+3:539  0:000    12. 566B6CB0: 'SSDT', 'DptfTabl', Rev: 2, Len: 15801
+3:539  0:000    13. 566BAA70: 'SSDT', 'SaSsdt', Rev: 2, Len: 22658
+3:539  0:000    14. 566C02F8: 'UEFI', '', Rev: 1, Len: 66
+3:539  0:000    15. 566C0340: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3699
+3:539  0:000    16. 566C11B8: 'BGRT', 'Notebook', Rev: 1, Len: 56
+3:539  0:000    17. 566C11F0: 'SSDT', 'SgPch', Rev: 2, Len: 1995
+3:539  0:000    18. 566C19C0: 'SSDT', 'OptTabl', Rev: 1, Len: 6803
+3:539  0:000    19. 55CB4F18: 'MSDM', 'Notebook', Rev: 3, Len: 85
