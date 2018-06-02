@@ -22,8 +22,12 @@
 				<false/>
 				<key>FixRTC</key>
 				<false/>
+				<key>FixShutdown</key>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
+				<key>FixUSB</key>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -358,9 +362,13 @@
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<key>DefaultLoader</key>
+		<string>MacOS</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
+		<true/>
+		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
@@ -533,7 +541,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>3</integer>
+			<integer>27</integer>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -588,8 +596,17 @@
 			<key>Enabled</key>
 			<false/>
 		</dict>
+		<key>Scan</key>
+		<dict>
+			<key>Entries</key>
+			<true/>
+			<key>Legacy</key>
+			<false/>
+			<key>Tool</key>
+			<true/>
+		</dict>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>clover-theme-minimal</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -743,6 +760,8 @@
 				<data>
 				AEFQUExFIFNTRAA=
 				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
